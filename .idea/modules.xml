@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-demo/api-gateway-demo.iml" filepath="$PROJECT_DIR$/api-gateway-demo/api-gateway-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-discovery/demo-discovery.iml" filepath="$PROJECT_DIR$/demo-discovery/demo-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_order_choreogrphy/demo_order_choreogrphy.iml" filepath="$PROJECT_DIR$/demo_order_choreogrphy/demo_order_choreogrphy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_payment_choreogrphy/demo_payment_choreogrphy.iml" filepath="$PROJECT_DIR$/demo_payment_choreogrphy/demo_payment_choreogrphy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_product_choreogrphy/demo_product_choreogrphy.iml" filepath="$PROJECT_DIR$/demo_product_choreogrphy/demo_product_choreogrphy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-springboot.iml" filepath="$PROJECT_DIR$/.idea/microservice-springboot.iml" />
+    </modules>
+  </component>
+</project>

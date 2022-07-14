@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo_payment_choreogrphy" />
+        <module name="api-gateway-demo" />
+        <module name="demo_product_choreogrphy" />
+        <module name="demo_order_choreogrphy" />
+        <module name="demo-discovery" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway-demo" target="1.8" />
+      <module name="demo-discovery" target="1.8" />
+      <module name="demo_order_choreogrphy" target="1.8" />
+      <module name="demo_payment_choreogrphy" target="1.8" />
+      <module name="demo_product_choreogrphy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-demo" options="-parameters" />
+      <module name="demo-discovery" options="-parameters" />
+      <module name="demo_order_choreogrphy" options="-parameters" />
+      <module name="demo_payment_choreogrphy" options="-parameters" />
+      <module name="demo_product_choreogrphy" options="-parameters" />
+    </option>
+  </component>
+</project>
